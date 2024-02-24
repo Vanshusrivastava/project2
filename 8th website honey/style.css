@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*this is navigation-bar style start*/
+
+nav {
+    height: 110px;
+    background-color: rgb(35, 31, 30);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    /* bottom: 110px; */
+    top: 0px;
+}
+
+ul>li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+li>a {
+    text-decoration: none;
+    color: aliceblue;
+    margin: 20px;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    transform: color;
+}
+
+a:hover {
+    color: rgb(251, 196, 31);
+    transition: 1.2s;
+}
+
+i {
+    color: aliceblue;
+    margin: 7px;
+    transform: color;
+}
+
+i:hover {
+    color: rgb(251, 196, 31);
+    transition: 1.2s;
+}
+
+/*this is navigation-bar style end*/
+
+/*this is first container with background image*/
+
+.TTQ-BG {
+    height: 650px;
+    width: 100%;
+    background: url(./images/slider_2_2000x_4331ab0a-dd4a-45ef-b4ae-23368e97f19f.jpg) 100% 100% no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.main-cont {
+    height: auto;
+    width: auto;
+    margin: 0 0 0 150px;
+    color: white;
+    font-family: "Lato",sans-serif;
+}
+.main-cont>h1{
+    font-size: 55px;
+    font-family: "Signika", sans-serif;
+}
+span {
+    color: rgb(251, 196, 31);
+}
+
+.but {
+    padding: 20px 40px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.yell-but {
+    background: rgb(251, 196, 31);
+    transform: all;
+}
+.yell-but:hover{
+    background: white;
+    transition: all 1.5s;
+}
+.wht-but{
+    background: white;
+    transform: all;
+}
+.wht-but:hover{
+    background: rgb(251, 196, 31);
+    transition: all 1.5s;
+}
+.About-us{
+    height: 700px;
+    background: red;
+    
+}
