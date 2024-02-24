@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>front-page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav {
+            padding: 20px;
+            width: 95%;
+        }
+
+        .nav a {
+            text-decoration: none;
+            padding: 20px;
+            color: black;
+        }
+
+        .nav a:hover {
+            background-color: gold;
+            padding: 20px;
+        }
+
+        .active {
+            border-bottom: 5px solid gold;
+        }
+
+        .head {
+            margin-top: 20px;
+            display: flex;
+        }
+
+        .subcont1 {
+            width: 12%;
+            background-color: gold;
+            height: 50px;
+            text-align: end;
+            line-height: 50px;
+            color: aliceblue;
+            padding-right: 15px;
+        }
+
+        .subcont2 {
+            width: 20%;
+            height: 30px;
+            padding: 10px;
+            color: grey;
+            line-height: 50px;
+        }
+
+        .maincont {
+            display: flex;
+        }
+
+        .col1 {
+            width: 45%;
+            height: 280px;
+            margin: 25px;
+            margin-left: 100px;
+        }
+
+        .col2 {
+            width: 45%;
+            margin: 25px;
+        }
+
+        .commentbox {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            border: 3px solid grey;
+        }
+
+        #name {
+            margin-left: 90px;
+            margin-top: -45px;
+        }
+
+        #profile {
+            margin-top: -20px;
+        }
+
+        .services {
+            margin-top: -20px;
+            margin-left: 95px;
+
+        }
+
+        .footer {
+            height: 250px;
+            display: flex;
+        }
+
+        .box {
+            width: 15%;
+            height: 200px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .clients {
+            height: 150px;
+            display: flex;
+        }
+
+        .logo {
+            height: 100px;
+            width: 10%;
+            margin: auto;
+            text-align: end;
+        }
+
+        .funfacts {
+            height: 250px;
+            display: flex;
+        }
+
+        .icon {
+            height: 150px;
+            width: 15%;
+            text-align: center;
+            background-color: white;
+            margin: auto;
+        }
+
+        .textyellow {
+            color: rgb(248, 212, 10);
+        }
+
+        .navicon {
+            margin-left: 1100px;
+            margin-top: -18px;
+        }
+        .fa-solid{
+            padding: 5px;
+            background-color: rgb(233, 217, 217);
+        }
+        #arrow{
+            margin-left: 500px;
+        }
+        #arrow a:hover{
+            /* padding: 5px; */
+            /* background-color: yellow; */
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <a href="../About-page/first-website.html" class="active">About Me</a>
+        <a href="#">Resume</a>
+        <a href="#">Portfolio</a>
+        <a href="../blog-page/blog.html">Blog</a>
+        <a href="#">Contact</a>
+        <div class="navicon">
+            <a href="#"><i class="fa-brands fa-twitter fa-fade"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f fa-fade"></i></a>
+            <a href="#"><i class="fa-brands fa-google-plus-g fa-fade"></i></a>
+        </div>
+    </div>
+    <div class="head">
+        <div class="subcont1">
+            <h2>About me</h2>
+        </div>
+        <div class="subcont2">
+            <h4>Artist,Thinker,Creative Doer</h4>
+        </div>
+    </div>
+    <div class="maincont">
+        <div class="col1">
+            <br>
+            <h3>I am a Web Developer/Designer @ Company.com</h3><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum aspernatur blanditiis amet impedit neque
+                aut eos necessitatibus autem animi nam voluptatibus magni ipsum cum veniam ducimus non optio, labore,
+                eligendi reiciendis temporibus eum consequatur enim id. Provident, repellat! Tempora nobis iusto odit
+                itaque aut? Ea accusantium facilis magni cupiditate voluptate?</p><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nisi molestias, atque cumque esse, eos
+                incidunt ab aliquam recusandae magni laudantium quas possimus quo. Velit dicta magnam nihil sunt fugit
+                autem harum reprehenderit earum perspiciatis illo distinctio iure, laboriosam in quisquam minus
+                molestiae, tenetur recusandae nisi facilis? Alias, soluta maiores!</p>
+        </div>
+        <div class="col2">
+            <br>
+            <h3><span class="active">Testimonials</span></h3><br>
+            <div class="commentbox">
+                <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum explicabo, deserunt perferendis ipsa
+                    quam ab.nemo ipsum dolor sit. </i>
+            </div>
+            <img src="https://lmpixels.com/demo/sunshine-demo/sunshine-version-1/sunshine-v1-html-template/images/testimonials/testimonial_photo_1.png"
+                alt="profile-pic" width="80px" id="profile">
+            <h4 id="name">John Doe <br>APPLE INC.</h4>
+            <span id="arrow">
+            <i class="fa-solid fa-less-than"></i>
+            <i class="fa-solid fa-greater-than"></i>
+            </span>
+        </div>
+    </div>
+    <h3 class="services"><span class="active">Services</span></h3>
+    <div class="footer">
+        <div class="box"><img
+                src="https://lmpixels.com/demo/sunshine-demo/sunshine-version-1/sunshine-v1-html-template/images/service/web_design.png"
+                alt="web design image" width="80px" height="80px">
+            <h3>Web design</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, expedita?</p>
+        </div>
+        <div class="box"><img
+                src="https://lmpixels.com/demo/sunshine-demo/sunshine-version-1/sunshine-v1-html-template/images/service/copywrite.png"
+                alt="copywrite image" width="80px" height="80px">
+            <h3>Copywriter</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, recusandae?</p>
+        </div>
+        <div class="box"><img
+                src="https://lmpixels.com/demo/sunshine-demo/sunshine-version-1/sunshine-v1-html-template/images/service/ecommerce.png"
+                alt="Ecommerce image" width="80px" height="80px">
+            <h3>Ecommerce</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, dignissimos!</p>
+        </div>
+        <div class="box"><img
+                src="https://lmpixels.com/demo/sunshine-demo/sunshine-version-1/sunshine-v1-html-template/images/service/management.png"
+                alt="management image" width="80px" height="80px">
+            <h3>Management</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, voluptate.</p>
+        </div>
+    </div>
+    <h3 class="services"><span class="active">Clients</span></h3>
+    <div class="clients">
+        <div class="logo"><img
+                src="https://lmpixels.com/demo/sunshine-demo/sunshine-version-1/sunshine-v1-html-template/images/clients/client_1.png"
+                alt="logo" width="100px"></div>
+        <div class="logo"><img
+                src="https://lmpixels.com/demo/sunshine-demo/sunshine-version-1/sunshine-v1-html-template/images/clients/client_2.png"
+                alt="logo" width="100px"></div>
+        <div class="logo"><img
+                src="https://lmpixels.com/demo/sunshine-demo/sunshine-version-1/sunshine-v1-html-template/images/clients/client_3.png"
+                alt="logo" width="100px"></div>
+        <div class="logo"><img
+                src="https://lmpixels.com/demo/sunshine-demo/sunshine-version-1/sunshine-v1-html-template/images/clients/client_4.png"
+                alt="logo" width="100px"></div>
+        <div class="logo"><img
+                src="https://lmpixels.com/demo/sunshine-demo/sunshine-version-1/sunshine-v1-html-template/images/clients/client_5.png"
+                alt="logo" width="100px"></div>
+        <div class="logo"><img
+                src="https://lmpixels.com/demo/sunshine-demo/sunshine-version-1/sunshine-v1-html-template/images/clients/client_6.png"
+                alt="logo" width="100px"></div>
+    </div>
+    <h3 class="services"><span class="active">Fun Facts</span></h3>
+    <div class="funfacts">
+        <div class="icon"><img src="./Smily.PNG" alt="smile-logo" width="80px">
+            <h4>Happy Clients</h4>
+            <h2 class="textyellow">1024</h2>
+        </div>
+        <div class="icon"><img src="./Alarm.PNG" alt="alaram-logo" width="80px">
+            <h4>Working Hours</h4>
+            <h2 class="textyellow">6256</h2>
+        </div>
+        <div class="icon"><img src="./Award.PNG" alt="Award-logo" width="80px">
+            <h4>Awards Won</h4>
+            <h2 class="textyellow">21</h2>
+        </div>
+        <div class="icon"><img src="./Coffee.PNG" alt="Coffee-logo" width="80px" height="80px">
+            <h4>Coffee Consumed</h4>
+            <h2 class="textyellow">20,000</h2>
+        </div>
+    </div>
+</body>
+
+</html>
